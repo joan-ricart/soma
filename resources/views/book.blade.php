@@ -23,11 +23,13 @@
 
         <nav class="mb-8 text-center text-sm md:text-base">
             <a href="{{ route('book_es') }}"
-                class="{{ $lang == 'es' ? 'pointer-events-none' : 'text-soma-green underline' }} uppercase">Reserva la
+                class="{{ $lang == 'es' ? 'pointer-events-none opacity-70' : 'text-soma-green underline' }} uppercase">Reserva
+                la
                 teva taula</a>
             <span class="text-soma-green">/</span>
             <a href="{{ route('book_en') }}"
-                class="{{ $lang == 'en' ? 'pointer-events-none' : 'text-soma-green underline' }} uppercase">Book a
+                class="{{ $lang == 'en' ? 'pointer-events-none opacity-70' : 'text-soma-green underline' }} uppercase">Book
+                a
                 table</a>
         </nav>
 

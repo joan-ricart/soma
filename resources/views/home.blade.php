@@ -22,19 +22,19 @@
         @php
             $images = [
                 [
-                    'src' => asset('images/slider-home/Image-4.jpg'),
+                    'src' => asset('images/slider-home/Image-5.jpg'),
                     'alt' => 'Imagen SOMA 1',
                 ],
                 [
-                    'src' => asset('images/slider-home/Image-5.jpg'),
+                    'src' => asset('images/slider-home/Image-3.jpg'),
                     'alt' => 'Imagen SOMA 3',
                 ],
                 [
-                    'src' => asset('images/slider-home/Image-3.jpg'),
+                    'src' => asset('images/slider-home/Image-6.jpg'),
                     'alt' => 'Imagen SOMA 4',
                 ],
                 [
-                    'src' => asset('images/slider-home/Image-1.jpg'),
+                    'src' => asset('images/slider-home/Image-4.jpg'),
                     'alt' => 'Imagen SOMA 5',
                 ],
                 [
@@ -42,8 +42,12 @@
                     'alt' => 'Imagen SOMA 5',
                 ],
                 [
-                    'src' => asset('images/slider-home/Image-6.jpg'),
+                    'src' => asset('images/slider-home/Image-1.jpg'),
                     'alt' => 'Imagen SOMA 6',
+                ],
+                [
+                    'src' => asset('images/slider-home/Image-7.jpg'),
+                    'alt' => 'Imagen SOMA 7',
                 ],
             ];
         @endphp
