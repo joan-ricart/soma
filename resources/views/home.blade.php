@@ -22,6 +22,14 @@
         @php
             $images = [
                 [
+                    'src' => asset('images/slider-home/Image-1.jpg'),
+                    'alt' => 'Imagen SOMA 5',
+                ],
+                [
+                    'src' => asset('images/slider-home/Image-7.jpg'),
+                    'alt' => 'Imagen SOMA 6',
+                ],
+                [
                     'src' => asset('images/slider-home/Image-5.jpg'),
                     'alt' => 'Imagen SOMA 1',
                 ],
@@ -41,14 +49,6 @@
                 //     'src' => asset('images/slider-home/Image-2.jpg'),
                 //     'alt' => 'Imagen SOMA 5',
                 // ],
-                [
-                    'src' => asset('images/slider-home/Image-1.jpg'),
-                    'alt' => 'Imagen SOMA 5',
-                ],
-                [
-                    'src' => asset('images/slider-home/Image-7.jpg'),
-                    'alt' => 'Imagen SOMA 6',
-                ],
             ];
         @endphp
         <div class="swiper relative">
