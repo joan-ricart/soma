@@ -36,7 +36,7 @@
         <div class="mx-4 mx-auto mb-8 max-w-lg">
             <script type="text/javascript" src="https://www.covermanager.com/js/iframeResizer.min.js"></script>
             <iframe id="restaurante-soma" title="Reservas" src="{{ $iframeUrl }}" frameborder="0" height="1000"
-                width="100%" onload="iFrameResize();" scrolling="no"></iframe>
+                width="100%" onload="iFrameResize();" scrolling="no" allow="payment"></iframe>
         </div>
 
     </main>
